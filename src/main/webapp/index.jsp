@@ -4,10 +4,15 @@
 <head>
     <title>JSP - Hello World</title>
 </head>
+<style></style>
 <body>
-<h1><%= "Hello World!" %>
-</h1>
-<br/>
-<a href="hello-servlet">Hello Servlet</a>
+<form action="/login" method="post">
+    <div class="login">
+        <h2>Login</h2>
+        <input type="text" name="username" size="30" placeholder="username"/>
+        <input type="password" name="password" size="30" placeholder="password" />
+        <input type="submit" value="Sign in"/>
+    </div>
+</form>
 </body>
 </html>
